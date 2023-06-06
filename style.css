@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+  height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(maldives-resorts-landscape-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+   
+}
+
+
+
+.header h2{
+    float: left;
+    
+}
+
+.header i{
+    float: left;
+}
+.header background-image{
+    width: 85px;
+    float: left;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    border: 2px solid white;
+    outline: none !important;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    float:right;
+   
+
+}
+
+
+.header h1{
+    padding-top: 150px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin:18px 0;
+}
+.input-group{
+    width: 90% !important ;
+    max-width: 500px;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border: 0!important;
+    border-radius: 30px!important;
+    margin: 2px;
+    box-shadow: none!important;
+}
+.input-group-text{
+    width: 90px;
+    background-image: linear-gradient(#3C2012,#070804);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px!important;
+    border-radius: 30px !important;
+    box-shadow: none!important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+
+
+
+
+
+/* regionals is start now */
+.regional{
+padding: 100px 0;
+ 
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.regional-img img{
+
+    width: 100%;
+
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background:#011c4b ;
+    color: #fff;
+    font: weight 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgbs(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+ }
+ .regional-img{
+position: relative;
+ }
+ .rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1;
+    position: absolute;
+    right: 0;
+ }
+.rating fa-solid{
+    font-size: 15px;
+    color: #0077B6;
+}
+.regional-details{
+    padding: 20px;
+    text-align: justify;
+}
+.regional-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.regional-details .fa-solid{
+ margin-right: 5px;
+}
+.regional-details .fa-regular{
+    margin-right: 5px;
+   }
+   .regional-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+   }
+   .gallery{
+    padding: 100px 0;
+    background-color:#EED5D9 ;
+   }
+   .gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+   }
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+   display: block;
+   color: #fff;
+   text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner{
+    height: 80%;
+    background-image: url(uZLCrx.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1380px;
+    height: 700px;
+    padding-top: 14%;
+}
+.banner-highlights{
+    padding:70px ;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    border: 2px solid white;
+    outline: none !important;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+}
+.guest-feedback{
+    padding: 100px 0;
+}
+.guest-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.guest-review p{
+padding: 50px 10px 10px 10px;
+}
+.guest-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.guest-review .fa-solid{
+ text-align: center;
+ padding-top: 15%;
+  
+}
+
+.guest-feedback .guest-review:hover{
+    color: #fff;
+    box-shadow: 20px 50px 100px rgba(0,0,0,0.5);
+    }
+    .footer{
+        padding: 100px 20px 15px;
+        background-image: linear-gradient(#2d557d,#9610fb);
+        color: #fff;
+
+
+    }
+   
+.footer p{
+    padding-top:20px;
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 25px;
+
+}
+.footer .h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer .row .fa-brands{
+
+    padding-right: 20px;
+    font-size: 15px;
+    
+}
+.footer .row .fa-solid{
+    padding-right: 20px;
+    font-size: 15px;  
+}
+    
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.footer  .fa-solid{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copyright{
+    text-align: center;
+}
