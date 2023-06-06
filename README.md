@@ -1,0 +1,1 @@
+# truna_resortmaldives
