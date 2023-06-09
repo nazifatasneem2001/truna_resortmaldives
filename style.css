@@ -271,3 +271,88 @@ padding: 50px 10px 10px 10px;
 .footer .copyright{
     text-align: center;
 }
+
+
+
+
+/* media queries */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+       
+      
+    
+    }
+.home .content{
+    padding: 0;
+}
+
+
+}
+
+
+@media (max-width:788px){
+    #menu{
+        display: block;
+    }
+header{
+    padding: 2rem 3%;
+}
+header .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #f9f9f9;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+}
+
+header .navbar a{
+    display: block;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+
+
+}
+section{
+
+    padding:0 3%;
+    padding-top: 9rem;
+}
+
+
+.banner{
+    
+    background: linear-gradient(rgba(255,255,255,.7)rgba(255,255,255,.7)),url(top-view-fresh-vegetables-such-as-pepper-carrot-onions-with-bread-light-desk-vegetable-food-meal-vitamine.jpg) no-repeat;
+    
+    background-position: left;
+}
+
+
+.banner.content{
+width: auto;
+}
+
+}
+
+
+
+@media (max-width:400px){
+
+    html{
+        font-size: 50%;
+       
+      
+    
+    }
+
+
+
+}
